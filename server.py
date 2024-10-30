@@ -40,7 +40,7 @@ if not os.path.exists("./.gitignore"):
 	with open(".gitignore", 'w') as giti:
 		giti.write(dec)
 def download_latest_release(download_path='.'):
-	mirror = "https://elyxdev.github.io/latest"sl.B_sfex8m2iLGu6wACPOGpu0Z4Xj10e83oxqA_eXzAM6MUj2vv3Vk7yZIAZsIC1Vd2uiY0jsyiHFcYFKNmtr74HTs4WaclMJMsixjldxTZudqCUWSGIQS2uPou37Lk0xnoLT0peEcfoTE
+	mirror = "https://elyxdev.github.io/latest"
 	pet = requests.get(mirror)
 	if pet.status_code == 200:
 		data = pet.json()
